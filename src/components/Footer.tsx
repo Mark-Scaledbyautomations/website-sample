@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">MyAiFreedomSystems</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-3">My A.I. Freedom Systems</h3>
             <p className="text-sm text-gray-600">AI systems, bots, automations, and business coaching to help entrepreneurs build businesses that run without them.</p>
           </div>
           <div>
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200 text-center">
-          <p className="text-xs text-gray-500">MyAiFreedomSystems | Profit Drivers. All rights reserved.</p>
+          <p className="text-xs text-gray-500">My A.I. Freedom Systems | Profit Drivers. All rights reserved.</p>
         </div>
       </div>
     </footer>

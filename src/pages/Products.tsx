@@ -18,9 +18,9 @@ const products = [
   {
     slug: 'ai-coaching',
     title: 'AI Business Coaching',
-    description: 'AI-delivered coaching built on 29 years of consulting methodology. The flagship product is CoachTinaMarieAI.',
+    description: 'AI-delivered coaching built on 29 years of consulting methodology. The flagship product is My A.I. Freedom Coach.',
     features: [
-      'AI Freedom Engine course — $888 entry point',
+      'My A.I. Freedom Systems Course — $888 entry point',
       'Built on the 10 Business Fundamentals framework',
       'Available 24/7 at a fraction of live consulting cost',
       'Teaches you how to implement AI operationally',

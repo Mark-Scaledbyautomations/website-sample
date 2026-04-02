@@ -25,14 +25,14 @@ const productData: Record<string, {
   'ai-coaching': {
     title: 'AI Business Coaching',
     tagline: '29 years of consulting methodology, delivered by AI at any hour.',
-    description: 'The flagship product is CoachTinaMarieAI — an AI coaching system built on thousands of hours of coaching transcripts and the 10 Business Fundamentals framework. The entry point is the AI Freedom Engine, which teaches business owners how to use AI to implement the fundamentals in their own businesses — not theoretically, but operationally.',
+    description: 'My A.I. Freedom Coach — an AI coaching system built on thousands of hours of coaching transcripts and the 10 Business Fundamentals framework. The entry point is the My A.I. Freedom Systems Course, which teaches business owners how to use AI to implement the fundamentals in their own businesses — not theoretically, but operationally.',
     features: [
-      { title: 'AI Freedom Engine', desc: 'The entry-level course at $888. Learn how to use AI to fix the core things that make or break a business.' },
+      { title: 'My A.I. Freedom Systems Course', desc: 'The entry-level course at $888. Learn how to use AI to fix the core things that make or break a business.' },
       { title: '10 Business Fundamentals', desc: 'A proven diagnostic framework covering principles, finance, time, management, team, optimization, scaling, skills, mindset, and leadership.' },
       { title: '24/7 AI Coach', desc: 'Access business coaching at any hour, for a fraction of what a live consultant charges.' },
       { title: 'Operational, Not Theoretical', desc: 'Every lesson connects directly to what you can implement in your business this week.' },
     ],
-    cta: 'Enroll in AI Freedom Engine',
+    cta: 'Enroll in My A.I. Freedom Systems Course',
     ctaLink: '/contact',
   },
 }

@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">About MyAiFreedomSystems</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">About My A.I. Freedom Systems</h1>
           <p className="text-lg text-gray-600">Selling AI Systems, Bots, Automations & AI Business Coaching</p>
         </div>
       </section>

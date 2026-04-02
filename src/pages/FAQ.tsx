@@ -14,8 +14,8 @@ const faqs = [
     a: 'The AI handles the parts of the conversation that do not require human judgment — qualifying leads, answering common questions, and scheduling appointments. The moment a conversation needs a human, it routes to one. Your customers will not feel the difference at the qualification stage; they will feel the speed.',
   },
   {
-    q: 'What is the AI Freedom Engine?',
-    a: 'The AI Freedom Engine is an $888 course that teaches business owners how to use AI to implement the 10 Business Fundamentals in their own businesses. It is built on 29 years of consulting methodology and gives you access to an AI coach available at any hour.',
+    q: 'What is the My A.I. Freedom Systems Course?',
+    a: 'The My A.I. Freedom Systems Course is an $888 course that teaches business owners how to use AI to implement the 10 Business Fundamentals in their own businesses. It is built on 29 years of consulting methodology and gives you access to an AI coach available at any hour.',
   },
   {
     q: 'How long does it take to build a custom AI system?',

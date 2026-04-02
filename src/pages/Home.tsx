@@ -41,7 +41,7 @@ export default function Home() {
             <Link to="/products/ai-coaching" className="group border border-gray-200 rounded-xl p-8 hover:border-blue-300 hover:shadow-lg transition-all">
               <div className="text-3xl mb-4">&#127891;</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">AI Business Coaching</h3>
-              <p className="text-gray-600 mb-4">AI-delivered coaching built on 29 years of consulting methodology. Learn how to use AI to fix what is broken in your business with our AI Freedom Engine course.</p>
+              <p className="text-gray-600 mb-4">AI-delivered coaching built on 29 years of consulting methodology. Learn how to use AI to fix what is broken in your business with our My A.I. Freedom Systems Course.</p>
               <span className="text-blue-600 font-medium text-sm">Learn more &rarr;</span>
             </Link>
           </div>

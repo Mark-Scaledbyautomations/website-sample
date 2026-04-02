@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const tiers = [
   {
-    name: 'AI Freedom Engine',
+    name: 'My A.I. Freedom Systems Course',
     price: '$888',
     description: 'Self-paced AI business coaching course',
     features: [
