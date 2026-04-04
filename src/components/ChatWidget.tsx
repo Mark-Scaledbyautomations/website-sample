@@ -400,8 +400,9 @@ export default function ChatWidget() {
 
 // Type declarations for Web Speech API
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   interface Window {
-    SpeechRecognition: typeof SpeechRecognition
-    webkitSpeechRecognition: typeof SpeechRecognition
+    SpeechRecognition: any
+    webkitSpeechRecognition: any
   }
 }
