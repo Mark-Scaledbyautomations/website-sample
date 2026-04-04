@@ -5,6 +5,7 @@ import { sendChat, type ChatMessage } from '../lib/api'
 type View = 'closed' | 'mode-select' | 'chat' | 'voice'
 
 const AGENT_ID = import.meta.env.VITE_ELEVENLABS_AGENT_ID || ''
+const CONNECTION_API_KEY = import.meta.env.VITE_CONNECTION_API_KEY || ''
 const NUM_BARS = 24
 
 function getOrCreateUserId(): string {
@@ -19,7 +20,7 @@ function getOrCreateUserId(): string {
 
 function getClientDateTimeVars(): Record<string, string> {
   const now = new Date()
-  return {
+  const vars: Record<string, string> = {
     current_datetime: now.toLocaleString('en-US', {
       weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
       hour: 'numeric', minute: '2-digit', hour12: true,
@@ -27,6 +28,10 @@ function getClientDateTimeVars(): Record<string, string> {
     caller_timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     current_iso_date: now.toISOString().slice(0, 10),
   }
+  if (CONNECTION_API_KEY) {
+    vars.connection_api_key = CONNECTION_API_KEY
+  }
+  return vars
 }
 
 function ChatWidgetInner() {
